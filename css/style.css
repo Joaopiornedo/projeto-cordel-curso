@@ -1,0 +1,52 @@
+
+
+header{
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    align-content: center;
+}
+header h1{
+    font-size: 4em;
+    color: white;
+}
+header h3{
+    font-size: 1.5em;
+    color: white;
+    margin:20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+main{
+    background-image: url(../img/papel.jpg);
+    line-height: 1.5em;
+    padding: 2em 1em;
+    font-size: 3em;
+}
+.fundo-normal{
+    background-color: gray;
+    height: 600px;
+    padding: 0px 0px 0px 20px;
+    
+}
+.fundo-img1{
+    background-image: url(../img/background001.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 600px;
+    
+}
+.fundo-img2{
+    background-image: url(../img/background002.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 600px;
+}
