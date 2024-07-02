@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "Apocalypse";
+    src: url(../fonts/Apocalypse\ Grunge.ttf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Suithame";
+    src: url(../fonts/Suithame.otf);
+    font-weight: normal;
+}
 
 
 header{
@@ -7,6 +17,7 @@ header{
     align-content: center;
 }
 header h1{
+    font-family:"Apocalypse", sans-serif;
     font-size: 4em;
     color: white;
 }
@@ -20,33 +31,62 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color: blue;
+    color: rgb(0, 162, 255);
     text-decoration: underline;
 }
 main{
-    background-image: url(../img/papel.jpg);
+    font-family: "Suithame";
     line-height: 1.5em;
-    padding: 2em 1em;
-    font-size: 3em;
+    font-size: 2.7em;
+    background-color: rgba(255, 228, 196, 0.600);
 }
 .fundo-normal{
-    background-color: gray;
-    height: 500px;
-    padding: 0px 0px 0px 20px;
+    padding: 1em;
+    height: 480px;
+    
     
 }
 .fundo-img1{
+    padding: 1em;
+    border-radius: 20px;
     background-image: url(../img/background001.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     height: 600px;
-    
+}
+.fundo-img1 p{
+    padding: 0px 10px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 20px black;
+}
+.fundo-img2 p{
+    padding: 0px 10px;
+    width: 600px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 20px black;
 }
 .fundo-img2{
+    padding: 1em;
+    border-radius: 20px;
     background-image: url(../img/background002.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     height: 600px;
+    
+}
+footer{
+    
+    font-family: "Suithame";
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 80px;
+    font-size: 1em;
 }
