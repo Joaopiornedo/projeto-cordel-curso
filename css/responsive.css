@@ -1,0 +1,130 @@
+@media (max-width: 320px) {
+    header h1{
+        font-size: 2.6em ;
+    }
+    header h3{
+        font-size: 1.2em;
+    }
+    main{ 
+        max-height: 100vw;
+        font-size: 1.6em;
+    }
+    .fundo-normal{
+        height: 370px;
+    }
+    .fundo-img1{
+        padding: 0.5em;
+        height: 520px;
+    }
+    .fundo-img2{
+        padding: 0.5em;
+        height: 520px;
+    }
+    .fundo-img1 p{
+        width: 100%;
+        
+
+    }
+    .fundo-img2 p{
+        width: 100%;
+        
+
+    }
+    footer{
+        margin: 5em 0em;
+        font-size: 0.8em;
+    }
+}
+@media (min-width: 321px) and (max-width:480px){
+    header h1{
+        font-size: 2.6em ;
+    }
+    header h3{
+        font-size: 1.2em;
+    }
+    main{
+        max-height: 100vw;
+        font-size: 1.65em;
+    }
+    .fundo-normal{
+        height: 300px;
+    }
+    .fundo-img1{
+        padding: 0.5em;
+        height: 400px;
+    }
+    .fundo-img2{
+        padding: 0.5em;
+        height: 400px;
+    }
+    .fundo-img1 p{
+        width: 100%;
+        
+
+    }
+    .fundo-img2 p{
+        width: 100%;
+        
+
+    }
+    footer{
+        margin: 5em 0em;
+        font-size: 0.8em;
+    }
+}
+@media (min-width:481px) and (max-width:765px) {
+    
+    main{
+        max-height: 100vw;
+        font-size: 2.2em;
+    }
+    .fundo-img1{
+        padding: 0.5em;
+    }
+    .fundo-img2{
+        padding: 0.5em;
+    }
+    .fundo-img1 p{
+        width: 100%;
+    }
+    .fundo-img2 p{
+        width: 100%;
+    }
+    footer{
+        font-size: 0.5em;
+    }
+}
+@media (min-width:766px) and (max-width:1024px) {
+    
+    .fundo-img1{
+        padding: 0.5em;
+    }
+    .fundo-img2{
+        padding: 0.5em;
+    }
+    .fundo-img1 p{
+        width: 80%;
+    }
+    .fundo-img2 p{
+        width: 80%;
+    }
+    footer{
+        font-size: 0.7em;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px) {
+    .fundo-img1 p{
+        width: 80%;
+    }
+    .fundo-img2 p{
+        width: 80%;
+    }
+}
+@media (min-width:1201px) and (max-width:1400px) {
+    .fundo-img1 p{
+        width: 50%;
+    }
+    .fundo-img2 p{
+        width: 50%;
+    }
+}

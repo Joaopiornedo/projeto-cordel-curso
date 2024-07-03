@@ -9,7 +9,9 @@
     font-weight: normal;
 }
 
-
+body{
+    background-color: rgba(255, 228, 196, 0.600);
+}
 header{
     height: 200px;
     background-color: black;
@@ -36,7 +38,7 @@ a:hover{
 }
 main{
     font-family: "Suithame";
-    line-height: 1.5em;
+    line-height: 1.7em;
     font-size: 2.7em;
     background-color: rgba(255, 228, 196, 0.600);
 }
@@ -57,7 +59,7 @@ main{
 }
 .fundo-img1 p{
     padding: 0px 10px;
-    width: 600px;
+    width: 40%;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.418);
     color: rgb(255, 255, 255);
@@ -65,7 +67,7 @@ main{
 }
 .fundo-img2 p{
     padding: 0px 10px;
-    width: 600px;
+    width: 40%;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.418);
     color: rgb(255, 255, 255);
