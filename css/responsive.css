@@ -1,41 +1,36 @@
-@media (max-width: 320px) {
+@media (max-width: 370px) {
     header h1{
         font-size: 2.6em ;
     }
     header h3{
         font-size: 1.2em;
     }
-    main{ 
-        max-height: 100vw;
+    main{
+       
         font-size: 1.6em;
     }
-    .fundo-normal{
-        height: 370px;
-    }
+    
     .fundo-img1{
-        padding: 0.5em;
-        height: 520px;
-    }
-    .fundo-img2{
-        padding: 0.5em;
-        height: 520px;
+        background-attachment:scroll;
+        background-position: right 40%  center;
     }
     .fundo-img1 p{
         width: 100%;
-        
-
+    }
+    .fundo-img2{
+        background-attachment:scroll;
+        background-position: right  center; 
     }
     .fundo-img2 p{
         width: 100%;
-        
-
     }
+   
     footer{
-        margin: 5em 0em;
-        font-size: 0.8em;
+        
+        font-size: 0.6em;
     }
 }
-@media (min-width: 321px) and (max-width:480px){
+@media (min-width:371px) and (max-width:900px){
     header h1{
         font-size: 2.6em ;
     }
@@ -43,88 +38,29 @@
         font-size: 1.2em;
     }
     main{
-        max-height: 100vw;
-        font-size: 1.65em;
+       
+        font-size: 1.6em;
     }
-    .fundo-normal{
-        height: 300px;
-    }
-    .fundo-img1{
-        padding: 0.5em;
-        height: 400px;
-    }
-    .fundo-img2{
-        padding: 0.5em;
-        height: 400px;
-    }
-    .fundo-img1 p{
-        width: 100%;
-        
-
-    }
-    .fundo-img2 p{
-        width: 100%;
-        
-
-    }
-    footer{
-        margin: 5em 0em;
-        font-size: 0.8em;
-    }
-}
-@media (min-width:481px) and (max-width:765px) {
-    
-    main{
-        max-height: 100vw;
-        font-size: 2.2em;
-    }
-    .fundo-img1{
-        padding: 0.5em;
-    }
-    .fundo-img2{
-        padding: 0.5em;
-    }
-    .fundo-img1 p{
-        width: 100%;
-    }
-    .fundo-img2 p{
-        width: 100%;
-    }
-    footer{
-        font-size: 0.5em;
-    }
-}
-@media (min-width:766px) and (max-width:1024px) {
     
     .fundo-img1{
-        padding: 0.5em;
+        background-attachment:scroll;
+        background-position: right 40%  center;
+    }
+    .fundo-img1 p{
+        width: 100%;
     }
     .fundo-img2{
-        padding: 0.5em;
-    }
-    .fundo-img1 p{
-        width: 80%;
+        background-attachment:scroll;
+        background-position: right  center; 
     }
     .fundo-img2 p{
-        width: 80%;
+        width: 100%;
     }
+   
     footer{
-        font-size: 0.7em;
+        
+        font-size: 0.6em;
     }
 }
-@media (min-width:1025px) and (max-width:1200px) {
-    .fundo-img1 p{
-        width: 80%;
-    }
-    .fundo-img2 p{
-        width: 80%;
-    }
-}
-@media (min-width:1201px) and (max-width:1400px) {
-    .fundo-img1 p{
-        width: 50%;
-    }
-    .fundo-img2 p{
-        width: 50%;
-    }
-}
+
+

@@ -20,21 +20,22 @@ body{
 .off {
     opacity: 0;
     filter: blur(15px);
-    transition: all 1.5s;
+    transition: all 2s;
     transform: translateX(-100%) skewY(50deg);
 }
 .show{
     opacity: 1;
     filter: blur(0px);
-    transition: all 1.5s;
+    transition: all 2s;
     transform: translateX(0%) skewY(0deg);
 }
 section{
-    min-height: 100vh;
+    padding: 1em;
+    min-height: 70vh;
 }
 header{
-    height: 200px;
-    background-color: black;
+    height: 15em;
+    background-color: rgb(30, 30, 30);
     text-align: center;
     align-content: center;
 }
@@ -57,60 +58,56 @@ a:hover{
     text-decoration: underline;
 }
 main{
-    background-color: rgba(128, 128, 128, 0.151);
     font-family: "Suithame";
     line-height: 1.7em;
     font-size: 2.3em;
     color: white;
+
+   
 }
-.fundo-normal{
-    padding: 1em;
-    height: 480px;
-    
-    
-}
+
 .fundo-img1{
-    padding: 1em;
-    border-radius: 20px;
+    border-radius: 50px;
     background-image: url(../img/background001.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
-    height: 600px;
+    
 }
 .fundo-img1 p{
-    padding: 0px 10px;
-    width: 40%;
+    padding: 30px;
+    min-width: 40%;
+    height: 90%;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.418);
-    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.700);
     box-shadow: 0px 5px 20px black;
 }
 .fundo-img2 p{
-    padding: 0px 10px;
-    width: 40%;
+    padding: 30px;
+    min-width: 40%;
+    height: 90%;
     border-radius: 20px;
-    background-color: rgba(0, 0, 0, 0.418);
-    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.700);
     box-shadow: 0px 5px 20px black;
 }
 .fundo-img2{
     padding: 1em;
-    border-radius: 20px;
+    border-radius: 50px;
     background-image: url(../img/background002.jpg);
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     background-attachment: fixed;
-    height: 600px;
     
 }
 footer{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: "Suithame";
-    background-color: black;
+    background-color: rgb(30, 30, 30);
     color: white;
     text-align: center;
-    height: 80px;
+    height: 3em;
     font-size: 1em;
 }
 footer a{
